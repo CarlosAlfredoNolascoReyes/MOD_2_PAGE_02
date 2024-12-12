@@ -1,0 +1,67 @@
+body {
+    margin: 40px;
+}
+
+.CONTAINER {
+    display: flex;
+}
+
+.BOX {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #333;
+    background-color: #f0f0f0;
+}
+
+.CONTENT_BOX {
+    box-sizing: content-box;
+    background-color: #ffebee;
+}
+
+.BORDER_BOX {
+    box-sizing: border-box;
+    background-color: #e3f2ed;
+}
+
+.MEDIDAS {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.RESALTO {
+    background-color: #fff3cd;
+    padding: 2px;
+}
+
+.ROW {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.VERDE {
+    background-color: #1e3932;
+    color: white;
+}
+
+.CONTENT_STARBUCKS {
+    display: flex;
+    align-items: center;
+}
+
+.CONTENT_STARBUCKS img {
+    width: 50%;
+}
+
+.TEXTO {
+    max-width: 400px;
+}
+
+.TEXTO h1 {
+    font-size: 3rem;
+}
+
+.TEXTO p {
+    font-size: 1.5rem;
+}

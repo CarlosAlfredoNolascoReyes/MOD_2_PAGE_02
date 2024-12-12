@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box Sizing Demo </title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+<body>
+    <h1> Demostracion de Box Sizing </h1>
+    <div class="CONTAINER"> 
+        <div>
+            <h2> Content Box </h2>
+            <div class="BOX CONTENT_BOX">
+                Este es un Content Box 
+                <div class="MEDIDAS"> 
+                    width: 200px <br/>
+                    padding: 20px <br/>
+                    border: 5px <br/>
+                    <span class="RESALTO">
+                        Ancho total: 250px 
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2> Border Box </h2>
+            <div class="BOX BORDER_BOX">
+                Este es un Border Box
+                <div class="MEDIDAS">
+                    width: 200px <br/>
+                    padding: 20px <br/>
+                    border: 5px <br/>
+                    <span class="RESALTO">
+                        Ancho total: 200px 
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2> Explicacion </h2>
+        <p>
+            <strong> Content Box: </strong> El ancho total es la suma de width + padding + border (200px + 40px + 10px = 250px).
+        </p>
+        <p>
+            <strong> Border Box: </strong> El ancho total es exactamente el width especificado (incluye padding y border).
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <main>
+        <section class="ROW VERDE">
+            <div class="CONTENT_STARBUCKS">
+                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_SB_Latte.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" alt="Starbucks">
+                <div class="TEXTO">
+                    <h1> Starbucks latte por usted </h1>
+                    <p> Por nuestro amor al cafe, a nuestros seguidores y a nuestros clientes</p>
+                    <p> Estamos felices de verte todos los días</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
